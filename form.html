@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MYL Admission Form</title>
+    <link rel="stylesheet" href="form.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container-fluid bg-dark text-light py-3">
+      <header class="text-center">
+        <h1 class="display-6">Welcome to MYD</h1>
+      </header>
+    </div>
+    <section class="container my-2 w-10 p-2">
+      <form id="admissionfrom" class="row g-3">
+        <h3>Students Details</h3>
+        <div class="col-md-3">
+          <label for="validationDefault01" class="form-label">First name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefault01"
+            name="fname"
+            
+          />
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault02" class="form-label"
+            >Middle name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefault02"
+            name="mname"
+            
+          />
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault02" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationDefault02"
+            name="lname"
+            
+          />
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Gender</label>
+          <select class="form-select" id="validationDefault04" >
+            <option selected disabled name="gender">--Select Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Category</label>
+          <select class="form-select" id="validationDefault04" >
+            <option selected disabled name="category">
+              --Select Category--
+            </option>
+            <option value="general">General</option>
+            <option value="obc">OBC</option>
+            <option value="scOrst">SC/ST</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label"
+            >Academic Year</label
+          >
+          <select class="form-select" id="validationDefault04" >
+            <option selected disabled name="session">
+              --Select Admission Year--
+            </option>
+            <option value="2024-2025">2024-25</option>
+            <option value="2025-2026">2025-26</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label"
+            >Admission Class</label
+          >
+          <select class="form-select" id="validationDefault04" >
+            <option selected disabled name="class">--Select Class--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="11">11</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Religion</label>
+          <select class="form-select" id="validationDefault04" >
+            <option selected disabled name="religion">
+              --Select Religion--
+            </option>
+            <option value="Hindu">Hindu</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Christian">Christian</option>
+            <option value="Sikh">Sikh</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label"
+            >Blood Group</label
+          >
+          <select class="form-select" id="validationDefault04" >
+            <option selected disabled name="bloodGroup">
+              --Select Blood Group
+            </option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="inputEmail4"
+            placeholder="abcd@gmail.com"
+          />
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">D.O.B</label>
+          <input
+            type="date"
+            name="dob"
+            class="form-control"
+          />
+        </div>
+        <div class="col-md-6">
+          <label class="form-label"
+            >Phone Number</label
+          >
+          <input
+            type="number"
+            name="number"
+            class="form-control"
+            value="+91 "
+            
+          />
+        </div>
+        <h3>Residential Address</h3>
+        <div class="mb-1 col-md-8">
+          <label for="validationTextarea" class="form-label">Address</label>
+          <textarea
+            name="address"
+            class="form-control"
+            id="validationTextarea"
+            placeholder="Address"
+            
+          ></textarea>
+          <div class="invalid-feedback">
+            Please enter a message in the textarea.
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault03" class="form-label">City</label>
+          <input
+            type="text"
+            name="city"
+            class="form-control"
+            id="validationDefault03"
+            
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">State</label>
+          <input
+            type="text"
+            name="state"
+            class="form-control"
+            id="validationDefault03"
+            
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault05" class="form-label">Pincode</label>
+          <input
+            type="number"
+            name="pincode"
+            class="form-control"
+            id="validationDefault05"
+            
+          />
+        </div>
+        <h3>Parent's Details</h3>
+        <div class="col-md-6">
+          <label for="validationDefault01" class="form-label"
+            >Father's name</label
+          >
+          <input
+            type="text"
+            name="fathername"
+            class="form-control"
+            id="validationDefault01"
+            value=""
+            
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault01" class="form-label"
+            >Qualification</label
+          >
+          <input
+            type="text"
+            name="qualification"
+            class="form-control"
+            id="validationDefault01"
+            value=""
+            
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault04" class="form-label">Occupation</label>
+          <select
+            class="form-select"
+            id="validationDefault04"
+          >
+            <option selected disabled name="occupation">--Select Occupation--</option>
+            <option value="Bussiness">Bussiness</option>
+            <option value="Service">Service</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault01" class="form-label"
+            >Phone Number</label
+          >
+          <input
+            type="number"
+            name="mobilenumber"
+            class="form-control"
+            id="validationDefault01"
+            value=""
+            
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault01" class="form-label"
+            >Annual Income</label
+          >
+          <input
+            type="number"
+            name="income"
+            class="form-control"
+            id="validationDefault01"
+            value=""
+            
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input
+            type="email"
+            name="fatheremail"
+            class="form-control"
+            id="inputEmail4"
+            placeholder="abcd@gmail.com"
+          />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              name="agree"
+              id="invalidCheck2"
+              
+            />
+            <label class="form-check-label" for="invalidCheck2">
+              Agree to terms and conditions
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </section>
+  </body>
+  <script src="admission.js"></script>
+</html>

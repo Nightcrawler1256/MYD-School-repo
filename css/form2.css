@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300&family=Poppins:wght@300;400&family=Questrial&family=Rethink+Sans:wght@500&family=Ubuntu:wght@400;500&display=swap');
+
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Rethink Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #4070f4;
+}
+.container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+
+    padding: 30px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.container header::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 3px;
+    width: 27px;
+    border-radius: 8px;
+    background-color: #4070f4;
+}
+.container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: #ffffff;
+}
+.container form .details{
+    margin-top: 30px;
+}
+.container form .title{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #333;
+
+}
+.container form .fields{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+form .fields .input-field{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 15px);
+    margin: 4px 0;
+
+}
+.input-field label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input-field input,select{
+    padding: 0 15px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-weight: 400;
+    height: 42px;
+    margin: 8px 0;
+}
+.input-field section
+.input-field input:is(:focus,:valid){
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+.input-field input[type="date"]{
+    color: #707070;
+}
+
+.input-field input[input="date"]:valid{
+    color: #333;
+}
+
+.container form button, .nextBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #4070f4;
+    border-radius: 5px;
+    margin: 25px 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #265df2;
+}
+form button i{
+    margin: 0 6px;
+}
+
+form .buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+form .buttons button, .nextBtn {
+    margin-right: 14px;
+}
+
+
+/* ................................ */
+.buttons2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.buttons>.nextBtn1{
+    
+    margin-right: 70px;
+    
+}
+.nextBtn1>.btnText11{
+    width: 100%;
+    font-size: 50px;
+    line-height: 50px;
+    background-color: aqua;
+
+}
+.buttons2>.nextBtn1>i{
+    width: 200px;
+}
+.buttons>nextBtn2{
+    margin: 30px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300&family=Poppins:wght@300;400&family=Questrial&family=Rethink+Sans:wght@500&family=Ubuntu&display=swap');
+*
+{
+    
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    /* padding: 10px; */
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.head{
+    padding-top: 20px;
+    display: flex;
+    width: 100vw;
+    justify-content: center ;
+
+}
+.head img{
+    width: 40px;
+    height: auto;
+}
+h3{
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    font-size: .5rem;
+}
+form{
+    background-color: rgb(184, 214, 239);
+}

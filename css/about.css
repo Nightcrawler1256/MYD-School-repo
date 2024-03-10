@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.schoolhead{
+    display: grid;
+    width: 100vw;
+    height: auto;
+    /* padding: 10px; */
+
+}
+.head{
+    grid-column-start: 1;
+    grid-column-start: 1;
+}
+.head img{
+    width: 100%;
+    height: 300px;
+}
+.head1{
+    color: green;
+}
+.head2{
+    color: black;
+}
+.head2 h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* p{
+    font-size: 1rem;
+    padding: 10px;
+    
+} */
+.ab2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    padding: 30px;
+
+}
+.left-ab h2{
+    color: green;
+    padding: 10px;
+    font-weight: bold;
+}
+.left-ab{
+    width: 60%;
+    height: auto;
+    font-size: 1.2rem;
+}
+.left-ab p{
+    font-family: sans-serif;
+}
+.right-ab{
+    width: 40%;
+    height: auto;
+}
+.right-ab img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+    /* border-radius:50%; */
+}
+.img2 h1{
+    padding: 10px;
+}
+.img3 h1{
+    padding: 10px;
+}
+.ab3 .left-ab .about{
+    color: green;
+}
+.img3 img{
+    border-radius: 50%;
+}
+.ab4-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    padding: 20px;
+    margin: 10px;
+}
+.con h1{
+    font-size: 2rem;
+    color: rgb(77, 74, 74);
+}.con p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    color: rgb(113, 116, 105);
+}
+.scard{
+    width: 335px;
+    height: fit-content;
+    /* padding: 10px; */
+    margin: 7px;
+    border: 2px solid rgb(212, 205, 205);
+    border-radius: 15px;
+}
+.scard img{
+    width: 100%;
+    overflow: hidden;
+    /* border-radius: 10px; */
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.scard h4{
+    padding: 10px;
+}
+.scard p{
+    padding: 0 0 20px 10px;
+}
+@media (max-width:1000px)
+{
+    .ab2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .left-ab{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .right-ab{
+        width: 100%;
+    }
+    .right-ab img{
+        width: 80%;
+    }
+    .ab3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+   
+}
